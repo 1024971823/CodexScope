@@ -1,0 +1,6 @@
+{
+  "name": "CodexScope — Codex 子 Agent Token 实时监控插件",
+  "description": "面向 OpenAI Codex CLI 的子 Agent Token 实时监控插件与可视化工作台，实时追踪每个子代理的输入、缓存、输出、推理 Token、使用模型及变化速率。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

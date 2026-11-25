@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodexScope — Codex 子 Agent Token 实时监控插件</title>
+    <meta
+      name="description"
+      content="面向 OpenAI Codex CLI 的子 Agent Token 实时监控插件与可视化工作台，实时追踪每个子代理的输入、缓存、输出、推理 Token、使用模型及变化速率。"
+    />
+    <meta property="og:title" content="CodexScope — Codex 子 Agent Token 实时监控插件" />
+    <meta
+      property="og:description"
+      content="实时查看 Codex 子 Agent 消耗的输入输出 Token、模型分布与速率变化，支持本地 JSONL 监控脚本与 MCP 插件一键接入。"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-blue-600/15 selection:text-blue-700 dark:selection:bg-blue-400/20 dark:selection:text-blue-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

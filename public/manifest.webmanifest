@@ -1,0 +1,18 @@
+{
+  "name": "CodexScope — 多 Agent Token 实时监控",
+  "short_name": "CodexScope",
+  "description": "面向 Codex、Claude Code、Cursor、Gemini CLI 的实时子 Agent Token 监控任务栏与桌面小组件。",
+  "start_url": "/?widget=1",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%230f172a'/%3E%3Crect x='24' y='24' width='144' height='144' rx='28' fill='%232563eb'/%3E%3Cpath d='M56 122L84 74L108 106L136 70' stroke='%23ffffff' stroke-width='14' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
